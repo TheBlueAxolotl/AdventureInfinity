@@ -8,7 +8,6 @@ import com.blueaxolotl.infinitymod.client.render.PixieRenderer;
 import com.blueaxolotl.infinitymod.client.render.ProtectorRenderer;
 import com.blueaxolotl.infinitymod.entities.*;
 import com.blueaxolotl.infinitymod.world.biome.ModBiomes;
-import com.blueaxolotl.infinitymod.world.structure.ModStructures;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderType;
@@ -64,7 +63,6 @@ public class InfinityMod
         ModEntityTypes.ENTITY_TYPES.register(eventBus);
         ModBiomes.register(eventBus);
 
-        ModStructures.register(eventBus);
 
         eventBus.addListener(this::setup);
         // Register the enqueueIMC method for modloading
@@ -108,7 +106,6 @@ public class InfinityMod
             GlobalEntityTypeAttributes.put(ModEntityTypes.ACCELERATED.get(), AcceleratedProtectorEntity.setCustomAttributes().create());
         });
         event.enqueueWork(() -> {
-            ModStructures.setupStructures();
             AxeItem.BLOCK_STRIPPING_MAP = new ImmutableMap.Builder<Block, Block>().putAll(AxeItem.BLOCK_STRIPPING_MAP)
                     .put(ModBlocks.PURPLEHEART_LOG.get(), ModBlocks.STRIPPED_PURPLEHEART_LOG.get())
                     .put(ModBlocks.PURPLEHEART_WOOD.get(), ModBlocks.STRIPPED_PURPLEHEART_WOOD.get()).build();
