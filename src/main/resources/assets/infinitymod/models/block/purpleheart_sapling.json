@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "infinitymod:block/purpleheart_sapling"
+  }
+}

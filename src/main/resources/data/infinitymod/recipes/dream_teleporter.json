@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "zzz",
+    "z#z",
+    "zzz"
+  ],
+  "key": {
+    "#": {
+      "item": "infinitymod:tanzanite"
+    },
+    "z": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "infinitymod:dream_teleporter"
+  }
+}

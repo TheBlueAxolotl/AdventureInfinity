@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinitymod:maginite"
+    },
+    "title": "Imagine",
+    "description": "Find Maginite"
+  },
+  "parent": "infinitymod:dream",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinitymod:maginite",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

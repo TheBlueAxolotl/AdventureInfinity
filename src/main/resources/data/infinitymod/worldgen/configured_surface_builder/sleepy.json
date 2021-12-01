@@ -1,0 +1,15 @@
+
+{
+  "type": "minecraft:default",
+  "config": {
+    "top_material": {
+      "Name": "infinitymod:sleeping_grass"
+    },
+    "under_material": {
+      "Name": "infinitymod:sleeping_stone"
+    },
+    "underwater_material": {
+      "Name": "infinitymod:sleeping_dirt"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinitymod:maginite"
+    },
+    "title": "Infinity",
+    "description": "",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinitymod:tanzanite",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

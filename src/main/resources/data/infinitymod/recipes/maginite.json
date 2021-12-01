@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinitymod:maginite_block"
+    }
+  ],
+  "result": {
+    "item": "infinitymod:maginite",
+    "count": 9
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinitymod:tanzanite"
+    },
+    "title": "The Rarest Gem...",
+    "description": "Find Tanzanite"
+  },
+  "parent": "infinitymod:infinity",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "infinitymod:tanzanite",
+            "count": 1
+          }
+        ]
+      }
+    }
+  }
+}

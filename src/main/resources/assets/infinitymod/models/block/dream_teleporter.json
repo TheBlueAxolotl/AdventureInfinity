@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "infinitymod:block/dream_teleporter_end",
+    "side": "infinitymod:block/dream_teleporter_side"
+  }
+}

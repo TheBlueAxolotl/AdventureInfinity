@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "/# ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "infinitymod:maginite_sword"
+    },
+    "/": {
+      "item": "infinitymod:tanzanite"
+    }
+  },
+  "result": {
+    "item": "infinitymod:infused_sword"
+  }
+}

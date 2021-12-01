@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "infinitymod:purpleheart_log"
+    }
+  ],
+  "result": {
+    "item": "infinitymod:purpleheart_planks",
+    "count": 4
+  }
+}

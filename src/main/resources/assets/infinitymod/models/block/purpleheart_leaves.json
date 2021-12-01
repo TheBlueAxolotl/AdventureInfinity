@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "infinitymod:block/purpleheart_leaves"
+  }
+}

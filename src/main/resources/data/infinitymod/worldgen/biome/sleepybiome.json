@@ -1,0 +1,43 @@
+{
+  "surface_builder": "infinitymod:sleepy",
+  "depth": 0.02,
+  "scale": 1.25,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "none",
+  "creature_spawn_probability": 0.4,
+  "effects": {
+    "sky_color": 12999935,
+    "fog_color": 10567331,
+    "water_color": 57855,
+    "water_fog_color": 772064,
+    "grass_color": 12999935,
+    "foliage_color": 12999935
+  },
+  "starts": [
+    "infinitymod:ramparts"
+  ],
+  "spawners": {
+    "creature": [
+      {
+        "type": "infinitymod:protector",
+        "weight": 6,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ]
+  },
+  "spawn_costs": {
+  },
+    "carvers": {
+      "air": [
+        "minecraft:cave"
+      ]
+    },
+    "features": [
+      [
+        "minecraft:oak"
+      ]
+    ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "infinitymod:dream_teleporter"
+    },
+    "title": "One Could Only Dream",
+    "description": "Enter your dreams",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "infinitymod:infinity",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "from": "minecraft:overworld",
+        "to": "infinitymod:dream_dimension"
+      }
+    }
+  }
+}
